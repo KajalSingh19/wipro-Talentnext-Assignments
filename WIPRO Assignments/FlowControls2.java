@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Assignments Flow Control
 public class FlowControls2 {
 
     public static void ColorCodes(char ch){
@@ -70,15 +70,15 @@ for(int i = lower; i < upper; i++){
 }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-   System.out.println("\nEnter a Color Code : ");
+   System.out.println("\nEnter a Color Code : ");   // Assign 8
          char chr = sc.nextLine().charAt(0);
          
          ColorCodes(chr);
     
-    System.out.println("\nEnter a number : ");
+    System.out.println("\nEnter a number : ");      // Assign 12
         int p = sc.nextInt();
         isPrime(p); 
-    System.out.println("\nEnter the range to print prime numbers ");
+    System.out.println("\nEnter the range to print prime numbers ");   //Assign 11
        int a = sc.nextInt();
        int b = sc.nextInt();
         PrimeInRange(a, b);
