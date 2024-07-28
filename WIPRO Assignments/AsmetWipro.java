@@ -3,7 +3,7 @@ public class AsmetWipro {
    
 
      public static void CharValue( char ch)
-{
+   {
     if(ch >= 48 && ch <= 57){
         System.out.println("Digit"); 
     }
@@ -27,7 +27,7 @@ public class AsmetWipro {
     }
     public static void main(String args[])
     { 
-        //CommandLineArgs(args);
+        
 //System.out.println("same unit digits : "+SameLastDigits(6, 35));
 CharValue('G');
 
