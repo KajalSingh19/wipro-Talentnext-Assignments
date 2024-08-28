@@ -67,7 +67,7 @@ this.price = price;
 this.qtyInStock = qtyInStock;
 
 }
-[19:48, 28/08/2024] Kajal: public double getPrice() {
+ public double getPrice() {
 
 return price;
 
@@ -77,7 +77,9 @@ public void setPrice (double price) {
 
 this.price = price;
 
-} public int getQtyInStock() { return qtyInStock;
+} 
+ public int getQtyInStock() {
+ return qtyInStock;
 
 }
 
@@ -85,7 +87,7 @@ public void setQtyInStock(int qtyInStock) {
  this.qty InStock = qtyInStock;
 
 }
-[19:48, 28/08/2024] Kajal: public String getName() {
+ public String getName() {
 
 return name;
 
@@ -130,9 +132,7 @@ System.out.println(Calculator.powerInt(12, 2));
   System.out.println(Calculator.powerDouble (1.5, 2));
 
   Author author = new Author ("Arpan Das", "arp14@yahoo.com", 'M');
-Book book = new Book("Java Fundamentals", author, 199.0,
-
-500);
+Book book = new Book("Java Fundamentals", author, 199.0,500);
 
 System.out.println(book);
 
