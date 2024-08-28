@@ -27,6 +27,24 @@ public static void NoDuplicate(int[] arr){
     }
     System.out.println(Arrays.toString(distinctArr.toArray()));
 }
+
+    public static void  evenOdd(int[] arr){
+    int countE = 0; 
+    int countO = arr.length -1;
+    int[] array = new int[arr.length];
+    for(int j = 0; j < arr.length; j++){
+        if(arr[j] % 2 == 0){
+           array[countE] = arr[j];
+           countE++;
+        }
+        else{
+            array[countO] = arr[j];
+            countO--;
+        }
+    }
+    for(int i = 0; i < array.length; i++)
+    System.out.print(array[i] + "  ");
+}
     public static void main(String[] args) {
        
         Scanner sc = new Scanner(System.in);
@@ -37,6 +55,10 @@ System.out.println("the index of the element to be found is ");
 
         //Assign 7
   NoDuplicate(arr);
+        
+///Assign 10
+        int[] arr1 = {3,3,2,1,0};
+evenOdd(arr1);
              
 
              ///Assign 2
