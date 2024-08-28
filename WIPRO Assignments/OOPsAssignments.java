@@ -1,4 +1,5 @@
 // Encapsulation/Abstraciton   --  Assign 1
+public class OPPsAssignments{
 class Author {
 
 private String name;
@@ -121,7 +122,7 @@ public static double powerDouble(double num1, int num2)
 } 
 }
 
-public class OPPsAssignments{
+
 
 public static void main(String[] args) {
 
@@ -135,4 +136,4 @@ Book book = new Book("Java Fundamentals", author, 199.0,
 
 System.out.println(book);
 
-}
+}}
